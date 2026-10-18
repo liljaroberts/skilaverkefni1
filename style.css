@@ -1,0 +1,156 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Libre Caslon Condensed", serif;
+  margin: 0;
+  line-height: 1.5;
+  color: white;
+  background-color: rgb(188, 150, 188);
+}
+header {
+  background-color: rgb(167, 132, 169);
+  padding: 20px 40px;
+  border-bottom: 1px solid rgb(49, 3, 49);
+}
+nav a {
+  color: white;
+  text-decoration: none;
+  margin-right: 16px;
+}
+nav a:hover {
+  font-weight: bold;
+  color: rgb(93, 41, 98);
+}
+main {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 20px;
+}
+img {
+  width: 20%;
+  border-radius: 16px;
+}
+h2 {
+  color: rgb(66, 18, 63);
+  text-align: center;
+}
+h3 {
+  color: rgb(66, 18, 63);
+}
+.kort {
+  background-color: rgb(138, 109, 139);
+  border: 2px solid rgb(49, 3, 49);
+  padding: 10px 24px;
+  border-radius: 16px;
+  margin: 10px;
+  text-align: center;
+  color: rgb(66, 18, 63);
+}
+.kort2 {
+  background-color: rgb(138, 109, 139);
+  border: 2px solid rgb(49, 3, 49);
+  padding: 10px 24px;
+  border-radius: 16px;
+  margin: 10px auto;
+  max-width: 400px;
+  text-align: center;
+  color: rgb(66, 18, 63);
+}
+.kort2 ul {
+  list-style: none;
+  padding-left: 0;
+  font-weight: bolder;
+}
+.ahugamal {
+  color: rgb(66, 18, 63);
+  font-weight: bold;
+  font-style: italic;
+}
+.kort3 {
+  background-color: rgb(138, 109, 139);
+  border: 2px solid rgb(49, 3, 49);
+  padding: 20px 24px;
+  border-radius: 16px;
+  margin: 10px auto;
+  text-align: center;
+  min-width: 0;
+}
+.kort4 {
+  color: rgb(66, 18, 63);
+  font-weight: bolder;
+  font-size: larger;
+}
+.table-wrap {
+  overflow-x: auto;
+  max-width: 100%;
+}
+table {
+  border-collapse: collapse;
+  width: 100%;
+  min-width: 500px;
+  color: rgb(66, 18, 63);
+}
+th,
+td {
+  border: 1px solid rgb(49, 3, 49);
+  padding: 8px 16px;
+}
+@media (max-width: 600px) {
+  th,
+  td {
+    padding: 6px 8px;
+    font-size: 14px;
+  }
+}
+label {
+  display: block;
+  margin-top: 8px;
+  color: rgb(66, 18, 63);
+}
+input,
+textarea {
+  width: 80%;
+  padding: 8px;
+  border: 1px solid white;
+  border-radius: 8px;
+}
+button {
+  margin-top: 16px;
+  padding: 10px 24px;
+  border-radius: 8px;
+  border: none;
+  background-color: rgb(134, 77, 134);
+  color: white;
+  display: block;
+  font-family: "Libre Caslon Condensed", serif;
+}
+button:hover {
+  cursor: pointer;
+  font-weight: bold;
+  background-color: rgb(66, 18, 63);
+}
+.textemail {
+  color: rgb(66, 18, 63);
+}
+.takki {
+  display: inline-block;
+  padding: 10px 24px;
+  border-radius: 8px;
+  background-color: rgb(134, 77, 134);
+  color: white;
+  text-decoration: none;
+  border-radius: 6px;
+}
+
+.takki:hover {
+  background-color: rgb(66, 18, 63);
+}
+
+footer {
+  text-align: center;
+  padding: 20px;
+  border-top: 1px solid rgb(49, 3, 49);
+  background-color: rgb(167, 132, 169);
+}
